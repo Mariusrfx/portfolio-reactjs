@@ -14,9 +14,13 @@ function About() {
                   <div className='text-4xl sm:text-right font-bold'>
                     <p>Hola! Mi nombre es</p>
                     <p>Marius Romosan </p>
+                    <p></p>
                   </div>
                   <div>
-                     <p>Me encanta crear y diseñar nuevas aplicaciones. Desde siempre he sido un apasionado de la tecnología. Me gusta gusta aprender nuevos lenguajes de programacion y otros frameworks. 
+                     <p> Soy una persona organizada y con gran motivación, soy capaz de
+                    adaptarme a cualquier circunstancia y dar siempre lo mejor de mí
+                      en cualquier proyecto. Me encanta crear y diseñar nuevas aplicaciones. Desde siempre he sido un apasionado de la tecnología.
+                       Me gusta aprender nuevos lenguajes de programacion y otros frameworks. 
                       En mi tiempo libre suelo hacer cursos en Udemy o Coursera.  </p>
                   </div>
                 </div>
