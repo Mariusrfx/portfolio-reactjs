@@ -21,6 +21,8 @@ function Work() {
                         <span className='text-2xl font-bold text-white tracking-wider'>
                             API REST con NodeJs
                         </span>
+                        <p>Tecnologías: Express</p>
+                        
                         <div className='pt-8 text-center'>
                             <a href=''>
                                 <button className='text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg'>Code</button>
