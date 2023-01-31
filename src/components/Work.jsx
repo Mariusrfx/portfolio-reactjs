@@ -7,7 +7,7 @@ function Work() {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold  inline border-b-4 border-blue-500 py-4'>Proyectos</p>
-                <p className='py-8'>//Echa un vistazo a mis proyectos más recientes</p>
+                <p className='py-6'>//Echa un vistazo a mis proyectos más recientes</p>
             </div>
 
              {/* Efectos*/}

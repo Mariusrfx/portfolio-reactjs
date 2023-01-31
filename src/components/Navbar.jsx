@@ -2,6 +2,8 @@ import React ,{useState} from 'react'
 import {FaBars,FaTimes,FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import { Link } from 'react-scroll'
+
 
 import Logo from '../assets/logo.png'
 
@@ -17,11 +19,21 @@ const Navbar = () => {
         </div>
         {/*Navbar menu */}
         <ul className='hidden md:flex'>
-            <li>Home</li>
-            <li>Sobre mi </li>
-            <li>Tecnologías</li>
-            <li>Proyectos</li>
-            <li>Contacto</li>
+            <li>
+                <Link to="home"  smooth={true}  duration={500}>Home</Link>
+            </li>
+            <li>
+                <Link to="about"  smooth={true}  duration={500}>Sobre mi</Link>
+            </li>
+            <li>
+                <Link to="skills"  smooth={true}  duration={500}>Tecnologías</Link>
+            </li>
+            <li>
+                <Link to="work"  smooth={true}  duration={500}>Proyectos</Link>
+            </li>
+            <li>
+                <Link to="contact"  smooth={true}  duration={500}>Contacto</Link>
+            </li>
         </ul>
 
         {/*Hamburger menu */}
@@ -31,11 +43,23 @@ const Navbar = () => {
            
         {/*Mobile menu */}
         <ul className={!nav ?'hidden':'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center' }>
-            <li className='py-6 text-4xl'>Home</li>
-            <li className='py-6 text-4xl'>Sobre mi </li>
-            <li className='py-6 text-4xl'>Tecnologías</li>
-            <li className='py-6 text-4xl'>Proyectos</li>
-            <li className='py-6 text-4xl'>Contacto</li>
+
+            <li  className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="home"  smooth={true}  duration={500}>Home</Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="about"  smooth={true}  duration={500}>Sobre mi</Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="skills"  smooth={true}  duration={500}>Tecnologías</Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="work"  smooth={true}  duration={500}>Proyectos</Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="contact"  smooth={true}  duration={500}>Contacto</Link>
+            </li>
+
         </ul>
 
         {/*Social icons
