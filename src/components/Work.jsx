@@ -21,7 +21,7 @@ function Work() {
 
           <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
             <a href="#">
-              <img class="rounded-t-lg object-contain" src={app1} alt="" />
+              <img class="rounded-t-lg object-cover" src={app1} alt="" />
             </a>
             <div class="p-5">
               <a href="#">
@@ -43,7 +43,7 @@ function Work() {
 
           <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
             <a href="#">
-              <img class="rounded-t-lg scale-30" src={apilogo} alt="" />
+              <img class="rounded-t-lg object-cover" src={apilogo} alt="" />
             </a>
             <div class="p-5">
               <a href="#">
@@ -61,7 +61,6 @@ function Work() {
           </div>
 
           {/* Item*/}
-
           <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
             <a href="#">
               <img class="rounded-t-lg scale-30" src={apilogo} alt="" />
