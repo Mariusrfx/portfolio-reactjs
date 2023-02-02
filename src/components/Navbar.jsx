@@ -1,5 +1,5 @@
 import React ,{useState} from 'react'
-import {FaBars,FaTimes,FaLinkedin} from 'react-icons/fa'
+import {FaBars,FaTimes,FaLinkedin,FaInstagram} from 'react-icons/fa'
 import {HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { Link } from 'react-scroll'
@@ -62,15 +62,20 @@ const Navbar = () => {
 
         </ul>
 
-        {/*Social icons
-        <div className='flex fixed flex-col top-[35%] left-0'>
-            <li className='flex justify-between items-center ml-[-80px] '>
-                <a href="https://es.linkedin.com/">
+        {/*Social icons  */}
+        <div className='flex md:flex mb-auto fixed flex-col top-[86%]  left-[0%]'>
+            <li className='flex justify-between items-cb '>
+                <a href="https://es.linkedin.com/in/marius-romosan-627460b0">
                     <FaLinkedin size={30}/>
                 </a>
             </li>
+            <li className='flex justify-between items-cb py-3'>
+                <a href="https://www.instagram.com/marius.r.f/">
+                    <FaInstagram size={30}/>
+                </a>
+            </li>
         </div>
-    */}
+  
     </div>
 
   )
