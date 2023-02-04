@@ -24,11 +24,9 @@ function Work() {
               <img class="rounded-t-lg object-cover" src={app1} alt="" />
             </a>
             <div class="p-5">
-              <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
                   Aplicación Android en Kotlin
                 </h5>
-              </a>
               <p class="mb-3 font-normal dark:text-gray-300">
                 Aplicación desarrollada con Kotlin para la gestión de rutas,
                 paradas y conductores.
@@ -46,8 +44,8 @@ function Work() {
               <img class="rounded-t-lg object-cover" src={apilogo} alt="" />
             </a>
             <div class="p-5">
-              <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight">
+              <a href="https://github.com/Mariusrfx/CRUD-react-nodejs-mysql" target="_blank">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
                   Nodejs API con Express
                 </h5>
               </a>
@@ -66,16 +64,16 @@ function Work() {
               <img class="rounded-t-lg scale-30" src={apilogo} alt="" />
             </a>
             <div class="p-5">
-              <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight">
+              <a href="https://github.com/Mariusrfx/Nodejs-Mysql-APIREST">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
                   Nodejs API con Express
                 </h5>
               </a>
               <p class="mb-3 font-normal dark:text-gray-300 ">
-                API desarrollada con Nodejs y Express para la gestión de libros.
+                API desarrollada con Nodejs y Express para la gestión de empleados.
               </p>
               <p className="dark:text-gray-400 text-sm h-30 w-full ">
-                Nodejs, Express, React y MySQL  
+                Nodejs, Express, MySQL, Jest y Supertest
               </p>
             </div>
           </div>
