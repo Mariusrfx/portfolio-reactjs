@@ -20,9 +20,7 @@ function Work() {
           {/* Item*/}
 
           <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
-            <a href="#">
               <img class="rounded-t-lg object-cover" src={app1} alt="" />
-            </a>
             <div class="p-5">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
                   Aplicación Android en Kotlin
@@ -40,9 +38,7 @@ function Work() {
           {/* Item*/}
 
           <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
-            <a href="#">
               <img class="rounded-t-lg object-cover" src={apilogo} alt="" />
-            </a>
             <div class="p-5">
               <a href="https://github.com/Mariusrfx/CRUD-react-nodejs-mysql" target="_blank">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
@@ -60,9 +56,7 @@ function Work() {
 
           {/* Item*/}
           <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
-            <a href="#">
               <img class="rounded-t-lg scale-30" src={apilogo} alt="" />
-            </a>
             <div class="p-5">
               <a href="https://github.com/Mariusrfx/Nodejs-Mysql-APIREST">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">

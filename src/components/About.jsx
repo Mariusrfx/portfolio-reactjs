@@ -19,7 +19,7 @@ function About() {
                   <div>
                      <p> Soy una persona organizada y con gran motivación, soy capaz de
                     adaptarme a cualquier circunstancia y dar siempre lo mejor de mí
-                      en cualquier proyecto. Me encanta crear y diseñar nuevas aplicaciones. Desde siempre he sido un apasionado de la tecnología.
+                      en cualquier proyecto. Me encanta desarrollar nuevas aplicaciones. Desde siempre he sido un apasionado de la tecnología.
                        Me gusta aprender nuevos lenguajes de programacion y otros frameworks. 
                       En mi tiempo libre suelo hacer cursos en Udemy o Coursera.  </p>
                   </div>
