@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-reactjs/static/css/main.d86f1083.css",
-    "main.js": "/portfolio-reactjs/static/js/main.5dcb4fee.js",
+    "main.css": "/portfolio-reactjs/static/css/main.d610cccb.css",
+    "main.js": "/portfolio-reactjs/static/js/main.5f7e9085.js",
     "static/media/portada-proyecto.jpg": "/portfolio-reactjs/static/media/portada-proyecto.fbbfdbcdd867a0036b9c.jpg",
     "static/media/api-logo1.jpg": "/portfolio-reactjs/static/media/api-logo1.93fab4c7492c96d51f4d.jpg",
     "static/media/logo.png": "/portfolio-reactjs/static/media/logo.93436972005dd8cf883b.png",
@@ -13,11 +13,11 @@
     "static/media/github-logo.png": "/portfolio-reactjs/static/media/github-logo.c8007a9fb185cb152ee6.png",
     "static/media/java-logo.png": "/portfolio-reactjs/static/media/java-logo.6c64373d3b7415758078.png",
     "index.html": "/portfolio-reactjs/index.html",
-    "main.d86f1083.css.map": "/portfolio-reactjs/static/css/main.d86f1083.css.map",
-    "main.5dcb4fee.js.map": "/portfolio-reactjs/static/js/main.5dcb4fee.js.map"
+    "main.d610cccb.css.map": "/portfolio-reactjs/static/css/main.d610cccb.css.map",
+    "main.5f7e9085.js.map": "/portfolio-reactjs/static/js/main.5f7e9085.js.map"
   },
   "entrypoints": [
-    "static/css/main.d86f1083.css",
-    "static/js/main.5dcb4fee.js"
+    "static/css/main.d610cccb.css",
+    "static/js/main.5f7e9085.js"
   ]
 }
