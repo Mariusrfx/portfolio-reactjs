@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-reactjs/static/css/main.d86f1083.css",
+    "main.js": "/portfolio-reactjs/static/js/main.63cfa9c1.js",
+    "static/media/portada-proyecto.jpg": "/portfolio-reactjs/static/media/portada-proyecto.fbbfdbcdd867a0036b9c.jpg",
+    "static/media/api-logo1.jpg": "/portfolio-reactjs/static/media/api-logo1.93fab4c7492c96d51f4d.jpg",
+    "static/media/logo.png": "/portfolio-reactjs/static/media/logo.93436972005dd8cf883b.png",
+    "static/media/csharp-logo.png": "/portfolio-reactjs/static/media/csharp-logo.5a45dfbe7dbab84acddf.png",
+    "static/media/docker-logo.png": "/portfolio-reactjs/static/media/docker-logo.c1404d2c9eb77e0a00a3.png",
+    "static/media/react-logo1.png": "/portfolio-reactjs/static/media/react-logo1.20adfb35ae6a6e5817bf.png",
+    "static/media/node-logo.png": "/portfolio-reactjs/static/media/node-logo.111f27826443c0139aaf.png",
+    "static/media/symfony-logo.png": "/portfolio-reactjs/static/media/symfony-logo.3c272c21550b3909f55b.png",
+    "static/media/github-logo.png": "/portfolio-reactjs/static/media/github-logo.c8007a9fb185cb152ee6.png",
+    "static/media/java-logo.png": "/portfolio-reactjs/static/media/java-logo.6c64373d3b7415758078.png",
+    "index.html": "/portfolio-reactjs/index.html",
+    "main.d86f1083.css.map": "/portfolio-reactjs/static/css/main.d86f1083.css.map",
+    "main.63cfa9c1.js.map": "/portfolio-reactjs/static/js/main.63cfa9c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d86f1083.css",
+    "static/js/main.63cfa9c1.js"
+  ]
+}
