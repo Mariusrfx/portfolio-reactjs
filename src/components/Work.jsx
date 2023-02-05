@@ -4,14 +4,17 @@ import app1 from "../assets/portada-proyecto.jpg";
 
 function Work() {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div
+      name="work"
+      className="w-full sm:h-screen md:h-screen text-gray-300 bg-[#0a192f]"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8 pt-20">
           <p className="text-4xl font-bold  inline border-b-4 border-blue-500 py-4">
             Proyectos
           </p>
           <p className="py-6">
-            //Echa un vistazo a mis proyectos más recientes.
+            //Echa un vistazo a mis proyectos más recientes:
           </p>
         </div>
 
@@ -20,17 +23,18 @@ function Work() {
           {/* Item*/}
 
           <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
-              <img class="rounded-t-lg object-cover" src={app1} alt="" />
+            <img class="rounded-t-lg object-cover" src={app1} alt="" />
             <div class="p-5">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
-                  Aplicación Android en Kotlin
-                </h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
+                Aplicación Android en Kotlin
+              </h5>
               <p class="mb-3 font-normal dark:text-gray-300">
                 Aplicación desarrollada con Kotlin para la gestión de rutas,
                 paradas y conductores.
               </p>
               <p className="dark:text-gray-400 text-sm">
-                Kotlin, Firebase Firestore Firebase Autentication
+                Kotlin, Firebase Firestore Firebase Autentication, Google Maps
+                API y Google Places API
               </p>
             </div>
           </div>
@@ -38,9 +42,12 @@ function Work() {
           {/* Item*/}
 
           <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
-              <img class="rounded-t-lg object-cover" src={apilogo} alt="" />
+            <img class="rounded-t-lg object-cover" src={apilogo} alt="" />
             <div class="p-5">
-              <a href="https://github.com/Mariusrfx/CRUD-react-nodejs-mysql" target="_blank">
+              <a
+                href="https://github.com/Mariusrfx/CRUD-react-nodejs-mysql"
+                target="_blank"
+              >
                 <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
                   Nodejs API con Express
                 </h5>
@@ -49,14 +56,14 @@ function Work() {
                 API desarrollada con Nodejs y Express para la gestión de libros.
               </p>
               <p className="dark:text-gray-400 text-sm h-30 w-full ">
-              Nodejs, Express, React y MySQL    
+                Nodejs, Express, React y MySQL
               </p>
             </div>
           </div>
 
           {/* Item*/}
-          <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
-              <img class="rounded-t-lg scale-30" src={apilogo} alt="" />
+          <div class=" max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
+            <img class="rounded-t-lg scale-30" src={apilogo} alt="" />
             <div class="p-5">
               <a href="https://github.com/Mariusrfx/Nodejs-Mysql-APIREST">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
@@ -64,7 +71,8 @@ function Work() {
                 </h5>
               </a>
               <p class="mb-3 font-normal dark:text-gray-300 ">
-                API desarrollada con Nodejs y Express para la gestión de empleados.
+                API desarrollada con Nodejs y Express para la gestión de
+                empleados.
               </p>
               <p className="dark:text-gray-400 text-sm h-30 w-full ">
                 Nodejs, Express, MySQL, Jest y Supertest
