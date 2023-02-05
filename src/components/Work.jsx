@@ -48,12 +48,12 @@ function Work() {
                 href="https://github.com/Mariusrfx/CRUD-react-nodejs-mysql"
                 target="_blank"
               >
-                <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
-                  Nodejs API con Express
+                <h5 class="mb-2  text-2xl font-bold tracking-tight hover:text-blue-500">
+                  Full Stack Web
                 </h5>
               </a>
               <p class="mb-3 font-normal dark:text-gray-300 ">
-                API desarrollada con Nodejs y Express para la gestión de libros.
+                Web para la gestión de libros desarrollada con React, Nodejs y Express.
               </p>
               <p className="dark:text-gray-400 text-sm h-30 w-full ">
                 Nodejs, Express, React y MySQL
