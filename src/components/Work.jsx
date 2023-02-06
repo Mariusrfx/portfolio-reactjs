@@ -22,7 +22,7 @@ function Work() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 dark:text-gray-300">
           {/* Item*/}
 
-          <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
+          <div class="max-w-flex border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
             <img class="rounded-t-lg object-cover" src={app1} alt="" />
             <div class="p-5">
               <h5 class="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
@@ -41,7 +41,7 @@ function Work() {
 
           {/* Item*/}
 
-          <div class="max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
+          <div class="max-w-flex border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
             <img class="rounded-t-lg object-cover" src={apilogo} alt="" />
             <div class="p-5">
               <a
@@ -62,7 +62,7 @@ function Work() {
           </div>
 
           {/* Item*/}
-          <div class=" max-w-flex bg-white border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
+          <div class=" max-w-flex border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
             <img class="rounded-t-lg scale-30" src={apilogo} alt="" />
             <div class="p-5">
               <a href="https://github.com/Mariusrfx/Nodejs-Mysql-APIREST">
