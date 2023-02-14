@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4066b7a.css",
-    "main.js": "/static/js/main.b002a5d4.js",
+    "main.css": "/static/css/main.d742fd80.css",
+    "main.js": "/static/js/main.efa4c3fa.js",
     "static/media/portada-proyecto.jpg": "/static/media/portada-proyecto.fbbfdbcdd867a0036b9c.jpg",
     "static/media/api-logo1.jpg": "/static/media/api-logo1.93fab4c7492c96d51f4d.jpg",
+    "static/media/jenkins.png": "/static/media/jenkins.27720ab055587694d736.png",
     "static/media/logo.png": "/static/media/logo.93436972005dd8cf883b.png",
     "static/media/csharp-logo.png": "/static/media/csharp-logo.5a45dfbe7dbab84acddf.png",
     "static/media/docker-logo.png": "/static/media/docker-logo.c1404d2c9eb77e0a00a3.png",
@@ -12,12 +13,13 @@
     "static/media/symfony-logo.png": "/static/media/symfony-logo.3c272c21550b3909f55b.png",
     "static/media/github-logo.png": "/static/media/github-logo.c8007a9fb185cb152ee6.png",
     "static/media/java-logo.png": "/static/media/java-logo.6c64373d3b7415758078.png",
+    "static/media/firebase-logo.png": "/static/media/firebase-logo.a4156cb67d6d0676cffc.png",
     "index.html": "/index.html",
-    "main.d4066b7a.css.map": "/static/css/main.d4066b7a.css.map",
-    "main.b002a5d4.js.map": "/static/js/main.b002a5d4.js.map"
+    "main.d742fd80.css.map": "/static/css/main.d742fd80.css.map",
+    "main.efa4c3fa.js.map": "/static/js/main.efa4c3fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4066b7a.css",
-    "static/js/main.b002a5d4.js"
+    "static/css/main.d742fd80.css",
+    "static/js/main.efa4c3fa.js"
   ]
 }
