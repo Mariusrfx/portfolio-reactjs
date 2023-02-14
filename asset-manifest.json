@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.d742fd80.css",
-    "main.js": "/static/js/main.efa4c3fa.js",
+    "main.css": "/static/css/main.82642965.css",
+    "main.js": "/static/js/main.13423a74.js",
     "static/media/portada-proyecto.jpg": "/static/media/portada-proyecto.fbbfdbcdd867a0036b9c.jpg",
     "static/media/api-logo1.jpg": "/static/media/api-logo1.93fab4c7492c96d51f4d.jpg",
+    "static/media/maven-logo.png": "/static/media/maven-logo.35b9bef9c6d09eeb3139.png",
     "static/media/jenkins.png": "/static/media/jenkins.27720ab055587694d736.png",
     "static/media/logo.png": "/static/media/logo.93436972005dd8cf883b.png",
     "static/media/csharp-logo.png": "/static/media/csharp-logo.5a45dfbe7dbab84acddf.png",
@@ -15,11 +16,11 @@
     "static/media/java-logo.png": "/static/media/java-logo.6c64373d3b7415758078.png",
     "static/media/firebase-logo.png": "/static/media/firebase-logo.a4156cb67d6d0676cffc.png",
     "index.html": "/index.html",
-    "main.d742fd80.css.map": "/static/css/main.d742fd80.css.map",
-    "main.efa4c3fa.js.map": "/static/js/main.efa4c3fa.js.map"
+    "main.82642965.css.map": "/static/css/main.82642965.css.map",
+    "main.13423a74.js.map": "/static/js/main.13423a74.js.map"
   },
   "entrypoints": [
-    "static/css/main.d742fd80.css",
-    "static/js/main.efa4c3fa.js"
+    "static/css/main.82642965.css",
+    "static/js/main.13423a74.js"
   ]
 }
