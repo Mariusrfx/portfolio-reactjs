@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f80ff342.css",
-    "main.js": "/static/js/main.0276e286.js",
+    "main.css": "/static/css/main.1412c567.css",
+    "main.js": "/static/js/main.aac072a5.js",
     "static/media/portada-proyecto.jpg": "/static/media/portada-proyecto.fbbfdbcdd867a0036b9c.jpg",
     "static/media/api-logo1.jpg": "/static/media/api-logo1.93fab4c7492c96d51f4d.jpg",
     "static/media/portadafull.png": "/static/media/portadafull.2d50e59d809a7873fd0d.png",
@@ -16,11 +16,11 @@
     "static/media/firebase-logo.png": "/static/media/firebase-logo.a4156cb67d6d0676cffc.png",
     "static/media/tailwind-css.svg": "/static/media/tailwind-css.681db3393706b0b8d30fa63229e8ee85.svg",
     "index.html": "/index.html",
-    "main.f80ff342.css.map": "/static/css/main.f80ff342.css.map",
-    "main.0276e286.js.map": "/static/js/main.0276e286.js.map"
+    "main.1412c567.css.map": "/static/css/main.1412c567.css.map",
+    "main.aac072a5.js.map": "/static/js/main.aac072a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f80ff342.css",
-    "static/js/main.0276e286.js"
+    "static/css/main.1412c567.css",
+    "static/js/main.aac072a5.js"
   ]
 }
