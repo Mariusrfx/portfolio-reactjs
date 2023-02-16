@@ -11,7 +11,7 @@ function Contact() {
   return (
     <div  name='contact' className='w-full  text-gray-300 bg-[#0a192f] flex justify-center items-center p-4 '>
             
-        <form method='POST' ref={form} onSubmit={sendEmail} action="https://getform.io/f/76c1f7ab-1d1c-4e41-b2d7-fb9205ec4481" className='flex flex-col max-w-[600px] w-full pt-20'>
+        <form method='POST' ref={form} onSubmit={sendEmail} action="https://getform.io/f/76c1f7ab-1d1c-4e41-b2d7-fb9205ec4481" className='flex flex-col max-w-[600px] w-full pt-24'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold  inline border-b-4 border-blue-500'>{t('conttit')}</p>
                 <p className='py-5'>{t('contintro')}</p>  
