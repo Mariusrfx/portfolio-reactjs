@@ -26,7 +26,8 @@ const resources = {
       emailplch:"Email",
       msgplch:"Message",
       btnform:"Send",
-      footdesc:"Web designed and developed by Marius Romosan"
+      footdesc:"©Marius Romosan. All rights reserved"
+ 
     },
   },
   es: {
@@ -44,7 +45,7 @@ const resources = {
       titletech:"Tecnologías",
       introskill:"//Estas son las tecnologías con las que he trabajado:",
       titproj:"Proyectos",
-      intropro:"//Echa un vistazo a mis proyectos más recientes:",
+      introproj:"//Echa un vistazo a mis proyectos más recientes:",
       protit1:"Aplicación Android en Kotlin",
       prodesc1:"Aplicación desarrollada con Kotlin para la gestión de rutas, paradas y conductores.",
       prodesc2:"Web para la gestión de libros desarrollada con React, Nodejs y Express.",
@@ -56,7 +57,7 @@ const resources = {
       emailplch:"Email",
       msgplch:"Mensaje",
       btnform:"Enviar",
-      footdesc:"Web diseñada y desarrollada por Marius Romosan"
+      footdesc:"©Marius Romosan. Todos los derechos reservados"
     },
   },
 };

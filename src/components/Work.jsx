@@ -8,14 +8,14 @@ function Work() {
   return (
     <div
       name="work"
-      className="w-full sm:h-screen md:h-screen text-gray-300 bg-[#0a192f]"
+      className="w-full h-full text-gray-300 bg-[#0a192f]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 pt-20">
           <p className="text-4xl font-bold  inline border-b-4 border-blue-500 py-4">
           {t('titproj')}
           </p>
-          <p className="py-6">
+          <p className="py-8">
           {t('introproj')}
           </p>
         </div>

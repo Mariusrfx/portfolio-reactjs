@@ -40,7 +40,7 @@ const Home = () => {
           </div>
           <div>
             {" "}
-            <img className="ml-10" src={portada} alt="Portada Icon" />
+            <img className="ml-5" src={portada} alt="Portada Icon" />
           </div>
         </div>
       </div>
