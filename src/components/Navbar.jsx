@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-
+import { useTranslation } from "react-i18next";
 import Logo from "../assets/logo.png";
+import LanguageSelector from "./LanguageSelector";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  const { t } = useTranslation();
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
@@ -18,28 +18,32 @@ const Navbar = () => {
       {/*Navbar menu */}
       <ul className="hidden md:flex">
         <li>
+          <Link to="lang" smooth={true} duration={500}><LanguageSelector /></Link>
+          
+        </li>
+        <li>
           <Link to="home" smooth={true} duration={500}>
-            Home
+            {t("home")}
           </Link>
         </li>
         <li>
           <Link to="about" smooth={true} duration={500}>
-            Sobre mí
+            {t("about")}
           </Link>
         </li>
         <li>
           <Link to="skills" smooth={true} duration={500}>
-            Tecnologías
+            {t("skills")}
           </Link>
         </li>
         <li>
           <Link to="work" smooth={true} duration={500}>
-            Proyectos
+            {t("work")}
           </Link>
         </li>
         <li>
           <Link to="contact" smooth={true} duration={500}>
-            Contacto
+            {t("contact")}
           </Link>
         </li>
       </ul>
@@ -57,41 +61,44 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
+        <li className="py-6 text-4xl ">
+        <Link to="lang" smooth={true} duration={500}><LanguageSelector /></Link>
+        </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
+            {t("home")}
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            Sobre mí
+            {t("about")}
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Tecnologías
+            {t("skills")}
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Proyectos
+            {t("work")}
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contacto
+            {t("contact")}
           </Link>
         </li>
       </ul>
 
       {/*Social icons  */}
       <div className="flex md:flex mb-auto fixed flex-col top-[86%]  left-[0%]">
-        <li className="flex justify-between items-cb ">
-          <a href="https://es.linkedin.com/in/marius-romosan-627460b0">
+        <li className="flex justify-between items-cb icon">
+          <a href="https://es.linkedin.com/in/marius-romosan">
             <FaLinkedin size={30} />
           </a>
         </li>
-        <li className="flex justify-between items-cb py-3">
+        <li className="flex justify-between items-cb py-3 icon">
           <a href="https://www.instagram.com/marius.r.f/">
             <FaInstagram size={30} />
           </a>

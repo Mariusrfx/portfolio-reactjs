@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mariusrfx.gihub.io/portfolio-reactjs",
+  "homepage": "https://mromosan.dev",
   "name": "portfolio-reactjs",
   "version": "0.1.0",
   "private": true,
@@ -7,8 +7,11 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "i18next": "^22.4.9",
+    "js-cookie": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.5",
     "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
@@ -17,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
