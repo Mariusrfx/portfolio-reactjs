@@ -26,7 +26,9 @@ const resources = {
       emailplch:"Email",
       msgplch:"Message",
       btnform:"Send",
-      footdesc:"©Marius Romosan. All rights reserved"
+      footdesc:"©Marius Romosan. All rights reserved",
+      and:"and"
+      
  
     },
   },
@@ -57,7 +59,8 @@ const resources = {
       emailplch:"Email",
       msgplch:"Mensaje",
       btnform:"Enviar",
-      footdesc:"©Marius Romosan. Todos los derechos reservados"
+      footdesc:"©Marius Romosan. Todos los derechos reservados",
+      and: "y"
     },
   },
 };

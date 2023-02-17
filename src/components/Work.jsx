@@ -35,7 +35,7 @@ function Work() {
               </p>
               <p className="dark:text-gray-400 text-sm">
                 Kotlin, Firebase Firestore Firebase Autentication, Google Maps
-                API y Google Places API 
+                API {t('and')} Google Places API 
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ function Work() {
               {t('prodesc2')}
               </p>
               <p className="dark:text-gray-400 text-sm h-30 w-full ">
-                Nodejs, Express, React y MySQL
+                Nodejs, Express, React {t('and')} MySQL
               </p>
             </div>
           </div>
@@ -75,7 +75,7 @@ function Work() {
               {t('prodesc3')}
               </p>
               <p className="dark:text-gray-400 text-sm h-30 w-full ">
-                Nodejs, Express, MySQL, Jest y Supertest
+                Nodejs, Express, MySQL, Jest {t('and')} Supertest
               </p>
             </div>
           </div>
