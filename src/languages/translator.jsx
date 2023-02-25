@@ -27,9 +27,9 @@ const resources = {
       msgplch:"Message",
       btnform:"Send",
       footdesc:"©Marius Romosan. All rights reserved",
-      and:"and"
-      
- 
+      and:"and",
+      protit4:"InnovateERP",
+      prodesc4:"Full stack web for business management, mainly people management."
     },
   },
   es: {
@@ -60,7 +60,9 @@ const resources = {
       msgplch:"Mensaje",
       btnform:"Enviar",
       footdesc:"©Marius Romosan. Todos los derechos reservados",
-      and: "y"
+      and: "y",
+      protit4:"InnovateERP",
+      prodesc4:"Full stack web para la gestión de empresa, principalmente la gestión de personas."
     },
   },
 };

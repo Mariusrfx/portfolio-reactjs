@@ -1,7 +1,9 @@
 import React from "react";
 import apilogo from "../assets/api-logo1.jpg";
 import app1 from "../assets/portada-proyecto.jpg";
+import proj4 from "../assets/proj4.png";
 import { useTranslation } from "react-i18next";
+
 
 function Work() {
   const {t}=useTranslation();
@@ -41,7 +43,24 @@ function Work() {
           </div>
 
           {/* Item*/}
+          <div className=" max-w-flex border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
+            <img className="rounded-t-lg scale-30" src={proj4} alt="" />
+            <div className="p-5">
+              <a href="https://github.com/Mariusrfx/fullstack-erp-react-laravel-mysql">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight hover:text-blue-500">
+                {t('protit4')}
+                </h5>
+              </a>
+              <p className="mb-3 font-normal dark:text-gray-300 ">
+              {t('prodesc4')}
+              </p>
+              <p className="dark:text-gray-400 text-sm h-30 w-full ">
+                React, Vite, CSS, Laravel {t('and')} MySQL
+              </p>
+            </div>
+          </div>
 
+          {/* Item*/}
           <div className="max-w-flex border group container  border-gray-200 rounded-lg shadow dark:bg-[#0e2344] dark:border-gray-700 mx-auto items-center justify-center ">
             <img className="rounded-t-lg object-cover" src={apilogo} alt="" />
             <div className="p-5">
@@ -79,6 +98,9 @@ function Work() {
               </p>
             </div>
           </div>
+
+
+
         </div>
       </div>
     </div>
